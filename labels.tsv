@@ -1,0 +1,35 @@
+# name	color	description	(colors from the canonical hop-top/aps set)
+type:feat	0052CC	New feature
+type:fix	D73A4A	Bug fix
+type:docs	0075CA	Documentation
+type:refactor	6E40C9	Code refactoring
+type:chore	64748B	Maintenance
+type:perf	0E8A16	Performance improvement
+type:test	1D76DB	Tests
+type:ci	42A5F5	CI/CD changes
+priority:critical	B60205	Critical priority
+priority:high	D93F0B	High priority
+priority:medium	FBCA04	Medium priority
+priority:low	0E8A16	Low priority
+effort:xs	E8D5FF	Extra small effort (<1h)
+effort:s	D4A5FF	Small effort (1-4h)
+effort:m	7C3AED	Medium effort (4-16h)
+effort:l	5B21B6	Large effort (2-5d)
+effort:xl	4C1D95	Extra large effort (>5d)
+status:blocked	FBCA04	Blocked
+status:needs-review	FBCA04	Needs review
+status:stale	FBCA04	Stale
+status:release-pending	EDEDED	release-please: release PR open
+status:release-tagged	EDEDED	release-please: release tagged
+domain:api	1D76DB	REST API
+domain:cli	1D76DB	CLI
+domain:smtp	1D76DB	SMTP ingress
+domain:maildir	1D76DB	Maildir ingress
+domain:queue	1D76DB	Durable queue adapters
+domain:state	1D76DB	State store
+domain:storage	1D76DB	Raw message storage
+domain:router	1D76DB	Routing rules
+domain:webhook	1D76DB	Webhook delivery
+domain:runtime	1D76DB	Worker runtime
+domain:worker	1D76DB	Cloudflare worker
+domain:ee	1D76DB	Enterprise edition
